@@ -29,7 +29,10 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
     
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
-        print("logged in")
+        
+        let profileStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let profileView = profileStoryboard.instantiateViewControllerWithIdentifier("Profile")
+        self.presentViewController(profileView, animated: true, completion: nil)
     }
     
     func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {

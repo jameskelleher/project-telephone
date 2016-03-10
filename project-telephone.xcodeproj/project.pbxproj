@@ -18,6 +18,7 @@
 		B189D0B71C90E33700CC1BAD /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B189D0B41C90E33700CC1BAD /* FBSDKLoginKit.framework */; };
 		B189D0B81C90E33700CC1BAD /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B189D0B51C90E33700CC1BAD /* FBSDKMessengerShareKit.framework */; };
 		B189D0BE1C90E52000CC1BAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189D0BD1C90E52000CC1BAD /* LoginViewController.swift */; };
+		B189D0C01C90F34600CC1BAD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189D0BF1C90F34600CC1BAD /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		B189D0B51C90E33700CC1BAD /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "../../FacebookSDK/FacebookSDKs-iOS-20160210/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
 		B189D0BA1C90E35100CC1BAD /* project-telephone-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "project-telephone-bridging-header.h"; sourceTree = "<group>"; };
 		B189D0BD1C90E52000CC1BAD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B189D0BF1C90F34600CC1BAD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				B189D0BD1C90E52000CC1BAD /* LoginViewController.swift */,
+				B189D0BF1C90F34600CC1BAD /* ProfileViewController.swift */,
 				B189D0821C90E32800CC1BAD /* AppDelegate.swift */,
 				B189D0861C90E32800CC1BAD /* Main.storyboard */,
 				B189D08C1C90E32800CC1BAD /* Assets.xcassets */,
@@ -286,6 +289,7 @@
 			files = (
 				B189D0BE1C90E52000CC1BAD /* LoginViewController.swift in Sources */,
 				B189D08B1C90E32800CC1BAD /* project_telephone.xcdatamodeld in Sources */,
+				B189D0C01C90F34600CC1BAD /* ProfileViewController.swift in Sources */,
 				B189D0831C90E32800CC1BAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +521,7 @@
 				B189D0AC1C90E32800CC1BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B189D0AD1C90E32800CC1BAD /* Build configuration list for PBXNativeTarget "project-telephoneTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				B189D0AF1C90E32800CC1BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B189D0B01C90E32800CC1BAD /* Build configuration list for PBXNativeTarget "project-telephoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				B189D0B21C90E32800CC1BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -55,7 +55,7 @@
     <key>FacebookAppID</key>
     <string>1727654377457715</string>
     <key>FacebookDisplayName</key>
-    <string>ProjectTelephone</string>
+    <string>Project Telephone</string>
     <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>

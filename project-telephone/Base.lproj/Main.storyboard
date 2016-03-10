@@ -3,27 +3,42 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller-->
+        <!--Login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="project_telephone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" title="Login" id="BYZ-38-t0r" customClass="LoginViewController" customModule="project_telephone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5X-QG-84z" customClass="FBSDKLoginButton">
-                                <rect key="frame" x="50" y="68" width="218" height="76"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Telephone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAe-N6-9IA">
+                                <rect key="frame" x="80" y="28" width="254.5" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5X-QG-84z" customClass="FBSDKLoginButton">
+                                <rect key="frame" x="184" y="130.5" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E5X-QG-84z" firstAttribute="top" secondItem="dAe-N6-9IA" secondAttribute="bottom" constant="64" id="5xX-EK-dBX"/>
+                            <constraint firstItem="E5X-QG-84z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HLx-rA-g3V"/>
+                            <constraint firstItem="dAe-N6-9IA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="STD-h5-1EK"/>
+                            <constraint firstItem="dAe-N6-9IA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="XFb-vZ-CHu"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="btnFacebook" destination="E5X-QG-84z" id="7rh-vV-Fxp"/>
                     </connections>
@@ -31,6 +46,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="428" y="315"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="Rqv-VR-HSI">
+            <objects>
+                <viewController storyboardIdentifier="Profile" title="Profile" id="S2k-lL-EH4" customClass="ProfileViewController" customModule="project_telephone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aDW-fN-Ip7"/>
+                        <viewControllerLayoutGuide type="bottom" id="gMc-g5-WlQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hW5-ch-dYd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vO8-g2-RF0">
+                                <rect key="frame" x="87" y="32" width="239" height="243"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vO8-g2-RF0" secondAttribute="height" multiplier="239:243" id="gyC-jc-ZBX"/>
+                                    <constraint firstAttribute="height" constant="243" id="zVF-6s-kIB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ig-Iw-bqi">
+                                <rect key="frame" x="207" y="291" width="0.0" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="vMe-hV-P5w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9m5-JS-we9" customClass="FBSDKLoginButton">
+                                <rect key="frame" x="160.5" y="319" width="92" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="DY2-5B-UhW"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vO8-g2-RF0" firstAttribute="top" secondItem="hW5-ch-dYd" secondAttribute="topMargin" constant="32" id="KfU-pM-n6a"/>
+                            <constraint firstItem="7Ig-Iw-bqi" firstAttribute="top" secondItem="vO8-g2-RF0" secondAttribute="bottom" constant="16" id="LIh-wO-UlH"/>
+                            <constraint firstItem="7Ig-Iw-bqi" firstAttribute="centerX" secondItem="hW5-ch-dYd" secondAttribute="centerX" id="O4G-nb-QUw"/>
+                            <constraint firstItem="vO8-g2-RF0" firstAttribute="centerX" secondItem="hW5-ch-dYd" secondAttribute="centerX" id="Xhn-ka-2fW"/>
+                            <constraint firstItem="9m5-JS-we9" firstAttribute="centerX" secondItem="hW5-ch-dYd" secondAttribute="centerX" id="Y9j-Dl-ACZ"/>
+                            <constraint firstItem="9m5-JS-we9" firstAttribute="top" secondItem="7Ig-Iw-bqi" secondAttribute="bottom" constant="8" id="dXr-zM-oaq"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="btnFacebook" destination="9m5-JS-we9" id="FYP-Jk-50m"/>
+                        <outlet property="profileImage" destination="vO8-g2-RF0" id="QUQ-v1-c8K"/>
+                        <outlet property="profileName" destination="7Ig-Iw-bqi" id="lU8-y9-sP1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E9l-vh-994" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1032" y="315"/>
         </scene>
     </scenes>
 </document>
