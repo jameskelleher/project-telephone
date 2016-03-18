@@ -21,6 +21,7 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
 //        while true {
 //            print("butts")
 //        }
+        
     }
     
     override func didReceiveMemoryWarning() {
