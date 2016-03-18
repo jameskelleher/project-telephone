@@ -11,6 +11,6 @@
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
-
+#import <AWSCore/AWSCore.h>
 
 #endif /* project_telephone_bridging_header_h */

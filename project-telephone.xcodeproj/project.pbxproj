@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF6529677CEDCD8D754FB4C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC3FDB2983D2D866F32628 /* libPods.a */; };
+		B10D59FA1C9C4917001B8FCE /* AWSAPIGateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59E81C9C4917001B8FCE /* AWSAPIGateway.framework */; };
+		B10D59FB1C9C4917001B8FCE /* AWSAutoScaling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59E91C9C4917001B8FCE /* AWSAutoScaling.framework */; };
+		B10D59FC1C9C4917001B8FCE /* AWSCloudWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59EA1C9C4917001B8FCE /* AWSCloudWatch.framework */; };
+		B10D59FD1C9C4917001B8FCE /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59EB1C9C4917001B8FCE /* AWSCore.framework */; };
+		B10D59FE1C9C4917001B8FCE /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59EC1C9C4917001B8FCE /* AWSDynamoDB.framework */; };
+		B10D59FF1C9C4917001B8FCE /* AWSEC2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59ED1C9C4917001B8FCE /* AWSEC2.framework */; };
+		B10D5A001C9C4917001B8FCE /* AWSElasticLoadBalancing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59EE1C9C4917001B8FCE /* AWSElasticLoadBalancing.framework */; };
+		B10D5A011C9C4917001B8FCE /* AWSIoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59EF1C9C4917001B8FCE /* AWSIoT.framework */; };
+		B10D5A021C9C4917001B8FCE /* AWSKinesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F01C9C4917001B8FCE /* AWSKinesis.framework */; };
+		B10D5A031C9C4917001B8FCE /* AWSLambda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F11C9C4917001B8FCE /* AWSLambda.framework */; };
+		B10D5A041C9C4917001B8FCE /* AWSMachineLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F21C9C4917001B8FCE /* AWSMachineLearning.framework */; };
+		B10D5A051C9C4917001B8FCE /* AWSMobileAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F31C9C4917001B8FCE /* AWSMobileAnalytics.framework */; };
+		B10D5A061C9C4917001B8FCE /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F41C9C4917001B8FCE /* AWSS3.framework */; };
+		B10D5A071C9C4917001B8FCE /* AWSSES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F51C9C4917001B8FCE /* AWSSES.framework */; };
+		B10D5A081C9C4917001B8FCE /* AWSSimpleDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F61C9C4917001B8FCE /* AWSSimpleDB.framework */; };
+		B10D5A091C9C4917001B8FCE /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F71C9C4917001B8FCE /* AWSSNS.framework */; };
+		B10D5A0A1C9C4917001B8FCE /* AWSSQS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F81C9C4917001B8FCE /* AWSSQS.framework */; };
+		B10D5A0B1C9C4917001B8FCE /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D59F91C9C4917001B8FCE /* AWSCognito.framework */; };
+		B10D5A0D1C9C496E001B8FCE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D5A0C1C9C496E001B8FCE /* libz.tbd */; };
+		B10D5A0F1C9C4973001B8FCE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D5A0E1C9C4973001B8FCE /* libsqlite3.tbd */; };
+		B10D5A111C9C499A001B8FCE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D5A101C9C499A001B8FCE /* SystemConfiguration.framework */; };
 		B189D0831C90E32800CC1BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189D0821C90E32800CC1BAD /* AppDelegate.swift */; };
 		B189D0881C90E32800CC1BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B189D0861C90E32800CC1BAD /* Main.storyboard */; };
 		B189D08B1C90E32800CC1BAD /* project_telephone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B189D0891C90E32800CC1BAD /* project_telephone.xcdatamodeld */; };
@@ -39,6 +61,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42AC3FDB2983D2D866F32628 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6128640FFE6BFD353A5A24B0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A69A227F265A2DFD7F890EC7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B10D59E81C9C4917001B8FCE /* AWSAPIGateway.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAPIGateway.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSAPIGateway.framework"; sourceTree = "<group>"; };
+		B10D59E91C9C4917001B8FCE /* AWSAutoScaling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAutoScaling.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSAutoScaling.framework"; sourceTree = "<group>"; };
+		B10D59EA1C9C4917001B8FCE /* AWSCloudWatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCloudWatch.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSCloudWatch.framework"; sourceTree = "<group>"; };
+		B10D59EB1C9C4917001B8FCE /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSCore.framework"; sourceTree = "<group>"; };
+		B10D59EC1C9C4917001B8FCE /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSDynamoDB.framework"; sourceTree = "<group>"; };
+		B10D59ED1C9C4917001B8FCE /* AWSEC2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSEC2.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSEC2.framework"; sourceTree = "<group>"; };
+		B10D59EE1C9C4917001B8FCE /* AWSElasticLoadBalancing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSElasticLoadBalancing.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSElasticLoadBalancing.framework"; sourceTree = "<group>"; };
+		B10D59EF1C9C4917001B8FCE /* AWSIoT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSIoT.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSIoT.framework"; sourceTree = "<group>"; };
+		B10D59F01C9C4917001B8FCE /* AWSKinesis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSKinesis.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSKinesis.framework"; sourceTree = "<group>"; };
+		B10D59F11C9C4917001B8FCE /* AWSLambda.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSLambda.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSLambda.framework"; sourceTree = "<group>"; };
+		B10D59F21C9C4917001B8FCE /* AWSMachineLearning.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMachineLearning.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSMachineLearning.framework"; sourceTree = "<group>"; };
+		B10D59F31C9C4917001B8FCE /* AWSMobileAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileAnalytics.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSMobileAnalytics.framework"; sourceTree = "<group>"; };
+		B10D59F41C9C4917001B8FCE /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSS3.framework"; sourceTree = "<group>"; };
+		B10D59F51C9C4917001B8FCE /* AWSSES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSES.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSSES.framework"; sourceTree = "<group>"; };
+		B10D59F61C9C4917001B8FCE /* AWSSimpleDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSimpleDB.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSSimpleDB.framework"; sourceTree = "<group>"; };
+		B10D59F71C9C4917001B8FCE /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSNS.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSSNS.framework"; sourceTree = "<group>"; };
+		B10D59F81C9C4917001B8FCE /* AWSSQS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSQS.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/AWSSQS.framework"; sourceTree = "<group>"; };
+		B10D59F91C9C4917001B8FCE /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = "../../aws-ios-sdk-2.3.6/frameworks/extras/AWSCognito.framework"; sourceTree = "<group>"; };
+		B10D5A0C1C9C496E001B8FCE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B10D5A0E1C9C4973001B8FCE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B10D5A101C9C499A001B8FCE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B189D07F1C90E32800CC1BAD /* project-telephone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-telephone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B189D0821C90E32800CC1BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B189D0871C90E32800CC1BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,9 +111,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10D5A111C9C499A001B8FCE /* SystemConfiguration.framework in Frameworks */,
+				B10D5A0F1C9C4973001B8FCE /* libsqlite3.tbd in Frameworks */,
+				B10D5A0D1C9C496E001B8FCE /* libz.tbd in Frameworks */,
 				B189D0B71C90E33700CC1BAD /* FBSDKLoginKit.framework in Frameworks */,
+				B10D5A061C9C4917001B8FCE /* AWSS3.framework in Frameworks */,
+				B10D5A021C9C4917001B8FCE /* AWSKinesis.framework in Frameworks */,
+				B10D59FF1C9C4917001B8FCE /* AWSEC2.framework in Frameworks */,
+				B10D5A051C9C4917001B8FCE /* AWSMobileAnalytics.framework in Frameworks */,
+				B10D59FD1C9C4917001B8FCE /* AWSCore.framework in Frameworks */,
+				B10D5A0B1C9C4917001B8FCE /* AWSCognito.framework in Frameworks */,
 				B189D0B81C90E33700CC1BAD /* FBSDKMessengerShareKit.framework in Frameworks */,
+				B10D5A081C9C4917001B8FCE /* AWSSimpleDB.framework in Frameworks */,
+				B10D5A031C9C4917001B8FCE /* AWSLambda.framework in Frameworks */,
+				B10D59FC1C9C4917001B8FCE /* AWSCloudWatch.framework in Frameworks */,
+				B10D59FE1C9C4917001B8FCE /* AWSDynamoDB.framework in Frameworks */,
+				B10D5A091C9C4917001B8FCE /* AWSSNS.framework in Frameworks */,
 				B189D0B61C90E33700CC1BAD /* FBSDKCoreKit.framework in Frameworks */,
+				B10D5A0A1C9C4917001B8FCE /* AWSSQS.framework in Frameworks */,
+				B10D5A001C9C4917001B8FCE /* AWSElasticLoadBalancing.framework in Frameworks */,
+				B10D59FB1C9C4917001B8FCE /* AWSAutoScaling.framework in Frameworks */,
+				AF6529677CEDCD8D754FB4C7 /* libPods.a in Frameworks */,
+				B10D5A071C9C4917001B8FCE /* AWSSES.framework in Frameworks */,
+				B10D59FA1C9C4917001B8FCE /* AWSAPIGateway.framework in Frameworks */,
+				B10D5A041C9C4917001B8FCE /* AWSMachineLearning.framework in Frameworks */,
+				B10D5A011C9C4917001B8FCE /* AWSIoT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +156,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7921A5B8C2F444CA5CD440B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6128640FFE6BFD353A5A24B0 /* Pods.debug.xcconfig */,
+				A69A227F265A2DFD7F890EC7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B189D0761C90E32800CC1BAD = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +173,7 @@
 				B189D0A41C90E32800CC1BAD /* project-telephoneUITests */,
 				B189D0801C90E32800CC1BAD /* Products */,
 				B189D0B91C90E33A00CC1BAD /* Frameworks */,
+				7921A5B8C2F444CA5CD440B7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,9 +224,31 @@
 		B189D0B91C90E33A00CC1BAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B10D5A101C9C499A001B8FCE /* SystemConfiguration.framework */,
+				B10D5A0E1C9C4973001B8FCE /* libsqlite3.tbd */,
+				B10D5A0C1C9C496E001B8FCE /* libz.tbd */,
+				B10D59E81C9C4917001B8FCE /* AWSAPIGateway.framework */,
+				B10D59E91C9C4917001B8FCE /* AWSAutoScaling.framework */,
+				B10D59EA1C9C4917001B8FCE /* AWSCloudWatch.framework */,
+				B10D59EB1C9C4917001B8FCE /* AWSCore.framework */,
+				B10D59EC1C9C4917001B8FCE /* AWSDynamoDB.framework */,
+				B10D59ED1C9C4917001B8FCE /* AWSEC2.framework */,
+				B10D59EE1C9C4917001B8FCE /* AWSElasticLoadBalancing.framework */,
+				B10D59EF1C9C4917001B8FCE /* AWSIoT.framework */,
+				B10D59F01C9C4917001B8FCE /* AWSKinesis.framework */,
+				B10D59F11C9C4917001B8FCE /* AWSLambda.framework */,
+				B10D59F21C9C4917001B8FCE /* AWSMachineLearning.framework */,
+				B10D59F31C9C4917001B8FCE /* AWSMobileAnalytics.framework */,
+				B10D59F41C9C4917001B8FCE /* AWSS3.framework */,
+				B10D59F51C9C4917001B8FCE /* AWSSES.framework */,
+				B10D59F61C9C4917001B8FCE /* AWSSimpleDB.framework */,
+				B10D59F71C9C4917001B8FCE /* AWSSNS.framework */,
+				B10D59F81C9C4917001B8FCE /* AWSSQS.framework */,
+				B10D59F91C9C4917001B8FCE /* AWSCognito.framework */,
 				B189D0B31C90E33700CC1BAD /* FBSDKCoreKit.framework */,
 				B189D0B41C90E33700CC1BAD /* FBSDKLoginKit.framework */,
 				B189D0B51C90E33700CC1BAD /* FBSDKMessengerShareKit.framework */,
+				42AC3FDB2983D2D866F32628 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B189D0AA1C90E32800CC1BAD /* Build configuration list for PBXNativeTarget "project-telephone" */;
 			buildPhases = (
+				3DB826DA626B4B794BF5E5BD /* Check Pods Manifest.lock */,
 				B189D07B1C90E32800CC1BAD /* Sources */,
 				B189D07C1C90E32800CC1BAD /* Frameworks */,
 				B189D07D1C90E32800CC1BAD /* Resources */,
+				995D6CD61A10933475CC98CD /* Embed Pods Frameworks */,
+				47A21D051A86CFAA9CA7A3FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +384,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DB826DA626B4B794BF5E5BD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47A21D051A86CFAA9CA7A3FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		995D6CD61A10933475CC98CD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B189D07B1C90E32800CC1BAD /* Sources */ = {
@@ -430,11 +581,42 @@
 		};
 		B189D0AB1C90E32800CC1BAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6128640FFE6BFD353A5A24B0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "/Users/jamesbkel/Documents/FacebookSDK/FacebookSDKs-iOS-20160210";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/jamesbkel/Documents/FacebookSDK/FacebookSDKs-iOS-20160210",
+					"/Users/jamesbkel/Documents/aws-ios-sdk-2.3.6/frameworks",
+					"/Users/jamesbkel/Documents/aws-ios-sdk-2.3.6/frameworks/extras",
+				);
 				INFOPLIST_FILE = "project-telephone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"AWSAutoScaling\"",
+					"-l\"AWSCloudWatch\"",
+					"-l\"AWSCognito\"",
+					"-l\"AWSCore\"",
+					"-l\"AWSDynamoDB\"",
+					"-l\"AWSEC2\"",
+					"-l\"AWSElasticLoadBalancing\"",
+					"-l\"AWSKinesis\"",
+					"-l\"AWSLambda\"",
+					"-l\"AWSMachineLearning\"",
+					"-l\"AWSMobileAnalytics\"",
+					"-l\"AWSS3\"",
+					"-l\"AWSSES\"",
+					"-l\"AWSSNS\"",
+					"-l\"AWSSQS\"",
+					"-l\"AWSSimpleDB\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.james.project-telephone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "project-telephone/project-telephone-bridging-header.h";
@@ -443,11 +625,42 @@
 		};
 		B189D0AC1C90E32800CC1BAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69A227F265A2DFD7F890EC7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "/Users/jamesbkel/Documents/FacebookSDK/FacebookSDKs-iOS-20160210";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/jamesbkel/Documents/FacebookSDK/FacebookSDKs-iOS-20160210",
+					"/Users/jamesbkel/Documents/aws-ios-sdk-2.3.6/frameworks",
+					"/Users/jamesbkel/Documents/aws-ios-sdk-2.3.6/frameworks/extras",
+				);
 				INFOPLIST_FILE = "project-telephone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"AWSAutoScaling\"",
+					"-l\"AWSCloudWatch\"",
+					"-l\"AWSCognito\"",
+					"-l\"AWSCore\"",
+					"-l\"AWSDynamoDB\"",
+					"-l\"AWSEC2\"",
+					"-l\"AWSElasticLoadBalancing\"",
+					"-l\"AWSKinesis\"",
+					"-l\"AWSLambda\"",
+					"-l\"AWSMachineLearning\"",
+					"-l\"AWSMobileAnalytics\"",
+					"-l\"AWSS3\"",
+					"-l\"AWSSES\"",
+					"-l\"AWSSNS\"",
+					"-l\"AWSSQS\"",
+					"-l\"AWSSimpleDB\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.james.project-telephone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "project-telephone/project-telephone-bridging-header.h";
